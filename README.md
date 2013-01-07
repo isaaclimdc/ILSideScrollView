@@ -31,9 +31,7 @@ A demo project `ILSideScrollViewDemo` is included to show how `ILSideScrollView`
     - `ILSideScrollViewItem.h`
     - `ILSideScrollViewItem.m`
 2. Add the `QuartzCore` framework to your project by clicking on your project's name at the top of the sidebar in Xcode, then going into "Build Phases". In this tab, expand "Link Binaries With Libraries" and add `QuartzCore.framework`.
-3. Add the line `#include "ILSideScrollView.h"` to the interface of the view controller that you wish to use `ILSideScrollView` in.
-
-   If you intend to use `ILSideScrollView` in multiple view controllers,  add the above include line to the `YourAppName-Prefix.pch` file in the "Supporting Files" group. This way, `ILSideScrollView` will be available to every file in your project without needing to keep adding a `#include`.
+3. Add the line `#include "ILSideScrollView.h"` to the interface of the view controller that you wish to use `ILSideScrollView` in. If you intend to use `ILSideScrollView` in multiple view controllers,  add the above include line to the `YourAppName-Prefix.pch` file in the "Supporting Files" group. This way, `ILSideScrollView` will be available to every file in your project without needing to keep adding a `#include`.
         
 #### Creating an array of `ILSideScrollViewItem` objects
 1. Initialize a new mutable array. This array will contain **only** `ILSideScrollViewItem` objects. 
